@@ -27,7 +27,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 ul {
@@ -419,6 +419,12 @@ footer ul li{
   font-size: 1.5rem;
 }
 
+@media (max-width:500px) {
+  footer {
+    padding: 1rem 1rem;
+  }
+}
+
 /* Footer section ends */
 
 /* General (utilities) */
@@ -518,8 +524,12 @@ footer ul li{
   .title *{
     font-size: 3rem;;
   }
+  .about picture{
+    display: flex;
+   justify-content: center;
+  }
   .about img{
-    width: 80%
+    width: 80%;
   }
   
   .title h3{
