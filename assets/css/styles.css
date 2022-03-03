@@ -527,6 +527,7 @@ footer ul li{
   .about picture{
     display: flex;
    justify-content: center;
+   padding-bottom: 5rem;
   }
   .about img{
     width: 80%;
