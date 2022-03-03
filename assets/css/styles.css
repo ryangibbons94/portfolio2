@@ -27,7 +27,7 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* outline: 1px solid red; */
+  outline: 1px solid red;
 }
 
 ul {
@@ -400,23 +400,6 @@ svg *{
 
 
 
-/* Scroll to top button */
-.scroll-up {
-  position: fixed;
-  right: 0.5%;
-  bottom: 3%;
-  cursor: pointer;
-}
-
-.scroll-up img{
-  border-radius: 80%;
-}
-
-.up-arrow {
-  width: 3rem;
-  height: 3rem;
-}
-/* Scroll to top button ends */
 
 /* Footer section */
 footer {
@@ -424,6 +407,16 @@ footer {
   padding: 1.25rem;
   text-align: center;
   margin-top: -1px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+}
+
+footer ul li{
+  font-size: 1.5rem;
 }
 
 /* Footer section ends */
