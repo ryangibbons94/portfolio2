@@ -296,16 +296,38 @@ svg *{
   background-repeat: no-repeat;
 }
 
+.projects h3{
+  font-size: 1.5rem;
+}
 .project-pic {
   width: 65%;
-  height: 60%;
+  height: 65%;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.project-card div{
+  margin: 1rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border-radius: 11px;
+  box-shadow: 0 3px 5px var(--primary-shadow);
+  padding: 3rem;
+  margin: 10px;
+  display: flex;
+  gap: 3rem;
+  width: 55rem;
 }
 
 .projects-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 3rem;
 }
+
 
 .projects-title {
   text-align: center;
@@ -314,12 +336,12 @@ svg *{
 
 .project-container {
   text-align: center;
-  width: 21.875rem;
   padding: 1rem;
 }
 
 .project-container p {
   padding: 0.4rem;
+  margin-bottom: 1rem;
 }
 
 .project-title {
@@ -329,6 +351,62 @@ svg *{
 .project-details {
   margin-bottom: var(--bottom-margin);
 }
+
+.project-link{
+  margin: 1rem;
+  padding: .7rem 1.3rem;
+  border: 1px solid var(--primary-color);
+  border-radius: .5rem;
+  text-align: center;
+  background-color: var(--primary-color);
+  color: white;
+  transition: var(--transition);
+}
+
+.project-link-two {
+  color: var(--primary-color);
+  background-color: white;
+  margin-left: 1rem;
+
+}
+.project-link:hover{
+  background-color: transparent;
+  color: var(--primary-color);
+}
+
+.project-link-two:hover{
+  border: 1px solid var(--secondary-color);
+  color: var(--secondary-color);
+}
+
+.project-card span{
+  display: inline-block;
+  margin-top: 1.5rem;
+  font-style: italic;
+  opacity: .8;
+}
+@media (max-width: 920px) {
+  .project-link{
+    margin: 0;
+  }
+  
+  
+  .project-card {
+    padding: 1rem;
+    margin: 10px;
+    gap: 0;
+  }
+}
+
+@media (max-width: 800px) {
+  .project-card {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+}
+
+
 
 /* Projects section ends */
 
@@ -437,13 +515,7 @@ footer ul li{
   margin: 10px;
 }
 
-.project-card {
-  background-color: #fff;
-  border-radius: 11px;
-  box-shadow: 0 3px 10px var(--primary-shadow);
-  padding: 20px;
-  margin: 10px;
-}
+
 
 /* Media queries for responsiveness */
 @media screen and (max-width: 720px) {
