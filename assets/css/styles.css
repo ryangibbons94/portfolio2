@@ -582,10 +582,14 @@ footer ul li{
     text-align: center;
     transform: translateX(120%);
     transition: transform 0.5s ease-in;
+    border-radius: 10px;
   }
 
   nav ul li {
     margin: 8px;
+  }
+  nav ul li:last-child{
+    padding-bottom: 1rem;
   }
 
   #icon {
