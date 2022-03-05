@@ -339,9 +339,10 @@ svg *{
   padding: 1rem;
 }
 
-.project-container p {
+.project-container p{
   padding: 0.4rem;
   margin-bottom: 1rem;
+  line-height: 1.5;
 }
 
 .project-title {
@@ -384,6 +385,10 @@ svg *{
   margin-top: 1.5rem;
   font-style: italic;
   opacity: .8;
+}
+
+.project-card div *{
+  margin-bottom: 1rem;
 }
 @media (max-width: 920px) {
   .project-link{
@@ -586,7 +591,7 @@ footer ul li{
   }
 
   .project-container {
-    width: 20.875rem;
+    width: 25.875rem;
   }
 
   .contact-form-container {
