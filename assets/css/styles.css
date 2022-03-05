@@ -339,6 +339,7 @@ svg *{
   background-image: url('wave2.svg');
   background-position: bottom;
   background-repeat: no-repeat;
+  margin-top: -2px;
 }
 
 .projects h3{
