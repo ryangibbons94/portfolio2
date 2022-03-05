@@ -582,7 +582,7 @@ footer ul li{
     left:0;
     width: 100%;
     text-align: center;
-    transform: translateY(-120%);
+    transform: translateY(-130%);
     transition: transform 0.5s ease-in;
     border-radius: 10px;
   }
@@ -686,6 +686,10 @@ footer ul li{
   .contact-form-container {
     max-width: 17.75rem;
   }
+  .project-card img{
+    width: 95%;
+  }
+
 }
 @media screen and (max-width: 350px) {
   .title .btn, .title .btnSecondary{
