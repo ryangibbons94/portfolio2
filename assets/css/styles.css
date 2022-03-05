@@ -572,6 +572,7 @@ footer ul li{
   nav {
     padding: 1.5rem 1rem;
   }
+
   nav ul {
     position: fixed;
     background-color: var(--bg-color);
@@ -580,7 +581,7 @@ footer ul li{
     left:0;
     width: 100%;
     text-align: center;
-    transform: translateX(120%);
+    transform: translateY(-120%);
     transition: transform 0.5s ease-in;
     border-radius: 10px;
   }
