@@ -1,10 +1,8 @@
 // Nav hamburgerburger selections
-const burger = document.querySelector("#burger-menu");
+const burger = document.querySelector("#icon");
 const ul = document.querySelector("nav ul");
 const nav = document.querySelector("nav");
 
-// Scroll to top selection
-const scrollUp = document.querySelector("#scroll-up");
 
 // Select nav links
 const navLink = document.querySelectorAll(".nav-link");
@@ -18,14 +16,14 @@ burger.addEventListener("click", () => {
 navLink.forEach((link) =>
   link.addEventListener("click", () => {
     ul.classList.remove("show");
+    document.getElementById("icon").classList.toggle("change");
   })
 );
 
-// scroll to top functionality
-scrollUp.addEventListener("click", () => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: "smooth",
-  });
-});
+
+burger.addEventListener('click', onClickMenu)
+
+function onClickMenu(){
+		document.getElementById("icon").classList.toggle("change");
+}
+
