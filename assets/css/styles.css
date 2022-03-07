@@ -317,15 +317,13 @@ svg *{
   margin: auto;
   text-align: center;
   padding: 5rem;
-  background-color: white;
-  background-image: url('wave.svg');
+  background-color: var(--bg-color);
+  background-image: url('wave2.svg');
   background-position: bottom;
   background-repeat: no-repeat;
   margin-top: -2px;
 }
-.skills-wrapper{
-  padding: 5rem;
-}
+
 
 .skill-header {
   margin-bottom: 3rem;
@@ -333,6 +331,10 @@ svg *{
 
 .skills-wrapper img {
   padding: 1.25rem;
+}
+
+.skills-wrapper img:hover {
+  box-shadow: 0 3px 5px var(--primary-shadow);
 }
 
 .icon {
@@ -343,9 +345,9 @@ svg *{
 
 /* Projects section */
 .projects {
-  background-color: var(--bg-color);
+  background-color: white;
   padding: 5rem 0;
-  background-image: url('wave2.svg');
+  background-image: url('wave.svg');
   background-position: bottom;
   background-repeat: no-repeat;
   margin-top: -2px;
@@ -712,5 +714,3 @@ footer ul li{
     margin: .5rem;
   }
 }
-
-
