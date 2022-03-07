@@ -73,6 +73,12 @@ nav #logo {
   font-size: 2rem;
   font-weight: bold;
 }
+nav #logo i{
+  color: var(--secondary-color);
+}
+#logo:hover i{
+  color: white;
+}
 
 nav  ul a {
   color: white;
