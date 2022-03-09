@@ -253,13 +253,20 @@ svg *{
   background-color: var(--bg-color);
   padding: 7.5rem 6rem;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 5rem;
   background-image: url('wave2.svg');
   background-position: bottom;
   background-repeat: no-repeat;
   margin-top: -1px;
+}
+
+.about2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
 }
 
 .about div{
@@ -271,8 +278,7 @@ svg *{
 }
 
 .about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: left;
+  text-align: center;
 }
 
 .about img{
@@ -306,7 +312,7 @@ svg *{
 }
 
 @media (max-width: 800px) {
-  .about {
+  .about2 {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
