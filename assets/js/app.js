@@ -1,13 +1,12 @@
-// Nav hamburgerburger selections
+// making things into variables
 const burger = document.querySelector("#icon");
 const ul = document.querySelector("nav ul");
-const nav = document.querySelector("nav");
 const logo = document.querySelector('#logo')
 
 
 // Select nav links
 const navLink = document.querySelectorAll(".nav-link");
-
+//removes nav list from screen when my logo is clicked
 logo.addEventListener("click", () => {
     ul.classList.remove("show");
     document.getElementById("icon").classList.remove("change");
