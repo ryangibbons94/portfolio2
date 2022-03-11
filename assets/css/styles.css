@@ -568,6 +568,9 @@ input::placeholder {
   font-size: 1rem;
   width: 60%;
 }
+textarea{
+  resize: none;
+}
 
 @media (max-width: 1000px) {
   .submit-btn{
