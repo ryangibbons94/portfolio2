@@ -22,6 +22,20 @@ html {
   scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--primary-color);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--secondary-color);    /* color of the scroll thumb */
+  border-radius: 10px;       /* roundness of the scroll thumb */
+  border: 3px solid var(--secondary-color);  /* creates padding around scroll thumb */
+}
+
 /* CSS Resets */
 * {
   margin: 0;
