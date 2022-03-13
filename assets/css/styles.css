@@ -465,7 +465,7 @@ svg *{
   background-color: white;
   margin-left: 1rem;
 
-}
+} 
 .project-link:hover{
   background-color: transparent;
   color: var(--primary-color);
