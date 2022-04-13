@@ -4,14 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#4756d">
-    
+    <meta name="theme-color" content="#4756d" />
 
-		<link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/all.min.css" />
 
     <!--CSS Styles -->
     <link rel="stylesheet" href="assets/css/styles.css" />
-    
+
     <!-- Favicons -->
     <link
       rel="apple-touch-icon"
@@ -36,21 +35,29 @@
   <body>
     <!-- Navbar -->
     <nav>
-      <a href="#title" id="logo"><i class="fa-solid fa-code"></i> Ryan Gibbons</a>
+      <a href="#title" id="logo"
+        ><i class="fa-solid fa-code"></i> Ryan Gibbons</a
+      >
       <ul class="navigation">
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#projects" class="nav-link">Projects</a></li>
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li><a target="_blank" href="https://ryangibbons.hashnode.dev/" class="nav-link">Blog</a></li>
+        <li>
+          <a
+            target="_blank"
+            href="https://ryangibbons.hashnode.dev/"
+            class="nav-link"
+            >Blog</a
+          >
+        </li>
       </ul>
-      <div id="icon" >
+      <div id="icon">
         <span id="line1" class="line"></span>
         <span id="line2" class="line"></span>
         <span id="line3" class="line"></span>
       </div>
     </nav>
-    
 
     <!-- Hero Section -->
     <section class="hero" id="title">
@@ -65,41 +72,58 @@
         <h1 class="bio-title"><span>Ryan</span> Gibbons</h1>
         <h2 class="bio-title">Your Next Full Stack Software Engineer.</h2>
         <div class="buttons">
-        <a target="_blank"href="01Ryan Gibbons Resume.pdf" class="btn">Resume</a>
-        <a href="#projects" class="btnSecondary">Projects</a>
+          <a
+            target="_blank"
+            href="/Ryan Gibbons Software Engineer Resume.docx.pdf"
+            class="btn"
+            >Resume</a
+          >
+          <a href="#projects" class="btnSecondary">Projects</a>
         </div>
         <ul>
           <li>
-            <a href="https://twitter.com/RyGibbons" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://twitter.com/RyGibbons" target="_blank"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/rygibbons/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/rygibbons/" target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
           </li>
           <li>
-            <a href="https://github.com/ryangibbons94" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://github.com/ryangibbons94" target="_blank"
+              ><i class="fa-brands fa-github"></i
+            ></a>
           </li>
         </ul>
       </div>
-      
     </section>
     <!-- More about -->
     <section id="about" class="about">
       <section><h2>About Me</h2></section>
       <section class="about2">
-      <div>
-      <p>
-        I am a former math teacher that transitioned to a career as a software engineer. I am obsessed with answers and solving problems.
-      </p>
-      <p>
-        When I am not staring at a screen I enjoy spending time with my son and beautiful wife, as well as staring at my ever-growing pile of unread books. I also really enjoy baking and growing vegetables on my back patio. 
-      </p>
-      </div>
-      <picture><img width="400px" src="assets/images/prof1.JPEG"alt="picture of me"
-        loading="lazy"></picture>
+        <div>
+          <p>
+            I am a former math teacher that transitioned to a career as a
+            software engineer. I am obsessed with answers and solving problems.
+          </p>
+          <p>
+            When I am not staring at a screen I enjoy spending time with my son
+            and beautiful wife, as well as staring at my ever-growing pile of
+            unread books. I also really enjoy baking and growing vegetables on
+            my back patio.
+          </p>
+        </div>
+        <picture
+          ><img
+            width="400px"
+            src="assets/images/prof1.JPEG"
+            alt="picture of me"
+            loading="lazy"
+        /></picture>
       </section>
-
     </section>
-
 
     <!-- Projects section -->
     <section class="projects" id="projects">
@@ -131,12 +155,20 @@
             loading="lazy"
             class="project-pic"
           />
-          <div class="rightSide"><h3 class="project-title">Custom Creations Page</h3>
-          <p class="project-details">
-            Static website I designed and hand-coded for a small business who sells custom cups, wreaths, pens and more, complete with a built in dark mode. I used LESS to write the CSS.
-          </p>
-          <a href="https://www.customcreationsbyangela.com/" target="_blank" class="project-link">Live Site</a>
-          <span>HTML, LESS, CSS, JavaScript</span>
+          <div class="rightSide">
+            <h3 class="project-title">Custom Creations Page</h3>
+            <p class="project-details">
+              Static website I designed and hand-coded for a small business who
+              sells custom cups, wreaths, pens and more, complete with a built
+              in dark mode. I used LESS to write the CSS.
+            </p>
+            <a
+              href="https://www.customcreationsbyangela.com/"
+              target="_blank"
+              class="project-link"
+              >Live Site</a
+            >
+            <span>HTML, LESS, CSS, JavaScript</span>
           </div>
         </div>
       </div>
@@ -149,115 +181,134 @@
             loading="lazy"
             class="project-pic"
           />
-          <div class="rightSide"><h3 class="project-title">RGB Quiz Game</h3>
-          <p class="project-details">
-            Simple RGB quiz game I made. The game will increment or decrement a score depending on if the user correctly identifies which of the available choices are the correct RGB value shown on the page.
-          </p>
-          <a href="https://color-quizz.netlify.app/" target="_blank" class="project-link">Live Site</a>
-          <a href="https://github.com/ryangibbons94/colorquiz" target="_blank" class="project-link project-link-two">Code</a>
-          <span>HTML, CSS, JavaScript</span>
+          <div class="rightSide">
+            <h3 class="project-title">RGB Quiz Game</h3>
+            <p class="project-details">
+              Simple RGB quiz game I made. The game will increment or decrement
+              a score depending on if the user correctly identifies which of the
+              available choices are the correct RGB value shown on the page.
+            </p>
+            <a
+              href="https://color-quizz.netlify.app/"
+              target="_blank"
+              class="project-link"
+              >Live Site</a
+            >
+            <a
+              href="https://github.com/ryangibbons94/colorquiz"
+              target="_blank"
+              class="project-link project-link-two"
+              >Code</a
+            >
+            <span>HTML, CSS, JavaScript</span>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">MY SKILLS</h2>
 
-        <!-- Skills section -->
-        <section class="skills" id="skills">
-          <h2 class="skill-header">MY SKILLS</h2>
-    
-          <!-- <div class="skills-wrapper"> -->
-            <div class="first-set skills-wrapper">
-              <img
-                src="assets/icons/icons8-html-5.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-              <img
-                src="assets/icons/icons8-css3.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-              <img
-                src="assets/icons/icons8-javascript.svg"
-                alt=""
-                loading="lazy"
-                class="icon icon-card"
-              />
-            <!-- </div> -->
-    
-          </div>
-        </section>
+      <!-- <div class="skills-wrapper"> -->
+      <div class="first-set skills-wrapper">
+        <img
+          src="assets/icons/icons8-html-5.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-css3.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <img
+          src="assets/icons/icons8-javascript.svg"
+          alt=""
+          loading="lazy"
+          class="icon icon-card"
+        />
+        <!-- </div> -->
+      </div>
+    </section>
 
     <!-- Contact section -->
     <section class="contact" id="contact">
       <h2>Get In Touch With Me</h2>
       <div class="contact-leftright">
-      <div class="form-left-side">
-        <h4>Lets Chat</h4>
-        <p>Have something you'd like to say to me? Need help with a website? Want to say hello? Send me a message.</p>
-      </div>
-      <div class="contact-form-container">
-        <div class="contact-form">
-          <form name="contactMe" method="POST" data-netlify="true">
-            <div class="form-control">
-              <input
-                type="text"
-                id="name"
-                name="sender-name"
-                placeholder="Name"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <input
-                type="email"
-                id="email"
-                name="sender-email"
-                placeholder="Email"
-                class="input-field"
-                required
-              />
-            </div>
-            <div class="form-control">
-              <textarea
-                id="message"
-                cols="60"
-                rows="10"
-                placeholder="Your Message"
-                name="message"
-                class="input-field"
-                required
-              ></textarea>
-            </div>
-            <input
-              type="submit"
-              value="Send me a message &rarr;"
-              id="submit-btn"
-              class="submit-btn"
-            />
-          </form>
+        <div class="form-left-side">
+          <h4>Lets Chat</h4>
+          <p>
+            Have something you'd like to say to me? Need help with a website?
+            Want to say hello? Send me a message.
+          </p>
         </div>
-      </div>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form name="contactMe" method="POST" data-netlify="true">
+              <div class="form-control">
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Send me a message &rarr;"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
       </div>
     </section>
 
-
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2022 </p>
+      <p class="copy">&copy; Copyright 2022</p>
       <ul>
         <li>
-          <a href="https://twitter.com/RyGibbons"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://twitter.com/RyGibbons"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/rygibbons/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/in/rygibbons/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
         </li>
         <li>
-          <a href="https://github.com/ryangibbons94"><i class="fa-brands fa-github"></i></a>
+          <a href="https://github.com/ryangibbons94"
+            ><i class="fa-brands fa-github"></i
+          ></a>
         </li>
       </ul>
     </footer>
